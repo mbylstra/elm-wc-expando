@@ -1,0 +1,20 @@
+body {
+  font-family: monospace;
+}
+
+expandable-container {
+  display: block;
+  width: 400px;
+  max-height: 50px;
+  overflow: hidden;
+  background-color: pink;
+  padding: 20px;
+  border: 1px solid black;
+  transition: height 0.5s;
+}
+
+
+p {
+  margin: 0;
+  font-size: 20px;
+}
